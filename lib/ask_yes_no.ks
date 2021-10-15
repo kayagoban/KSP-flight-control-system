@@ -6,11 +6,11 @@
     print "Remove node?  Y/N".
 
     if response <> "N" {
-      return.
+      break.
     }
     else if response <> "Y" {
       remove n.
-      return.
+      break.
     } 
     else {
       print "Huh?".

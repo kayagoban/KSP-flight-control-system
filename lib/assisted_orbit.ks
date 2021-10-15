@@ -33,7 +33,7 @@ function pilot_assistant {
   until ch = "q" {
 
   	print "ROCKOMAX™ PILOT ASSISTANT       :D".
-  	print "-------------------------"
+  	print "-------------------------".
   	print "HEADING:      " + HEADING + "°".
   	print "PITCH:        " + pitch + "°".
 
