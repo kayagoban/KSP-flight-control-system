@@ -11,7 +11,8 @@ function choose_vessel {
   print "Select vessel:".
   print "--------------------".
   print "1) Munlander 1".
-  print "2) Munlander 2".
+  print "2) Munlander 2/3".
+  print "3) Munlander 4".
 
 
   set ch to terminal:input:getchar().
@@ -22,6 +23,10 @@ function choose_vessel {
   }
   else if ch = "2" {
     set VESSEL_HEIGHT to 2.7995.
+    return.
+  }
+  else if ch = "3" {
+    set VESSEL_HEIGHT to 3.69097.
     return.
   }
   
